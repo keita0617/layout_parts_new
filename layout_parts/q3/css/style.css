@@ -22,13 +22,10 @@
   vertical-align: middle;
   text-align: center;
 }
-.tablebox tr:nth-child(even) {
+.tablebox tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
-.tablebox tr:last-child {
+.tablebox tbody tr:last-child {
   border-top: dashed 2px #000;
-}
-.tablebox tr:first-child{
-  border-top: dashed 0;
 }
 /* 回答はここに書いてね */
