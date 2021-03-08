@@ -11,85 +11,68 @@
   font-size: 30px;
   font-weight: bold;
 }
-.purple {
+.inbox {
   position: absolute;
+  width: 100px;
+  line-height: 100px;
+}
+.outbox {
+  position: fixed;
+  width: 100px;
+  line-height: 100px;
+}
+.purple {
   z-index: 8;
   top: 120px;
   left: 120px;
-  width: 100px;
-  line-height: 100px;
   background-color: #de70cf;
 }
 .lightblue {
-  position: absolute;
   z-index: 5;
   top: 360px;
   left: 200px;
-  width: 100px;
-  line-height: 100px;
   background-color: #9fd6d2;
 }
 .orange {
-  position: absolute;
   z-index: 1;
-  width: 100px;
-  line-height: 100px;
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
 }
 .brown {
-  position: absolute;
   z-index: 7;
   top: 200px;
   left: 40px;
-  width: 100px;
-  line-height: 100px;
   background-color: #deae70;
 }
 .gray {
-  position: absolute;
   z-index: 4;
   top: 280px;
   right: 120px;
-  width: 100px;
-  line-height: 100px;
   background-color: #8b7a5e;
 }
 .white {
-  position: absolute;
   z-index: 6;
   top: 280px;
   left: 120px;
-  width: 100px;
-  line-height: 100px;
   background-color: #fffee4;
 }
 .blue {
-  position: absolute;
   z-index: 2;
   top: 120px;
   right: 120px;
-  width: 100px;
-  line-height: 100px;
   background-color: #7084de;
 }
 .skyblue {
-  position: absolute;
   z-index: 3;
   top: 200px;
   right: 40px;
-  width: 100px;
-  line-height: 100px;
   background-color: #d0ecea;
 }
 .indigo {
-  position: fixed;
   z-index: 9;
   top: 10px;
   left: 10px;
-  width: 100px;
-  line-height: 100px;
   background-color: #2b69a3;
 }
 .purple::after {
