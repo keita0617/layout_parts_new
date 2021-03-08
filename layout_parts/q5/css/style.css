@@ -16,11 +16,6 @@
   width: 100px;
   line-height: 100px;
 }
-.outbox {
-  position: fixed;
-  width: 100px;
-  line-height: 100px;
-}
 .purple {
   z-index: 8;
   top: 120px;
@@ -70,6 +65,7 @@
   background-color: #d0ecea;
 }
 .indigo {
+  position: fixed;
   z-index: 9;
   top: 10px;
   left: 10px;
