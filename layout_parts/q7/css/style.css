@@ -1,5 +1,72 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.float_textbox {
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+.float_textbox:first-child {
+  margin-left: 0;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.display_box {
+  display: table;
+}
+.table_textbox {
+  width: 225px;
+  display: table-cell;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+.table_textbox:first-child {
+  padding-left: 0;
+}
+.while_delete {
+  font-size: 0;
+}
+.inlineblock_box {
+  width: 225px;
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.inlineblock_box:first-child {
+  margin-left: 0;
+}
+.flex_base {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.flex_box {
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.mix_box {
+  width: 300px;
+  font-size: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.variable_box {
+  width: 100%;
+  font-size: 16px;
+  display: inline-block;;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
 /* 回答はここに書いてね */
