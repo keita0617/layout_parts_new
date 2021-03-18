@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.Speech_balloon {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 5px solid;
+  border-color: #222;
+  border-radius: 30px;
+}
+.Speech_balloon::before,.Speech_balloon::after {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+}
+.Speech_balloon::before {
+  bottom: -45px;
+  left: 30px;
+  border-top-color: #222;
+}
+.Speech_balloon::after {
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
+}
 /* 回答はここに書いてね */
